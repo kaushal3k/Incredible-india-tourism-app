@@ -2,7 +2,7 @@
 import React from 'react';
 import {
 	BrowserRouter as Router,
-	Routes, Route as RouteElement,
+	Routes, Route as RouteElement ,
 	Link
 } from 'react-router-dom';
 import {
@@ -10,13 +10,18 @@ import {
 	NavDropdown, Carousel
 } from 'react-bootstrap';
 import DestinationList
-	from './components/DestinationList';
+	from './DestinationList';
 import DestinationDetail
-	from './components/DestinationDetail';
+	from './DestinationDetail';
 import ContactForm
-	from './components/ContactForm';
-// Import the custom CSS file
+	from './ContactForm';
+
 import './App.css';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+
 
 const App = () => {
 	return (
